@@ -1,0 +1,93 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "af76b7e7-3a4a-424f-b18f-118cd32854bb": {
+        "id": "af76b7e7-3a4a-424f-b18f-118cd32854bb",
+        "parent": null,
+        "name": "cli-test.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "cli-test.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 26
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "cliTest",
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "69eeef47-a5c5-45dc-ba38-b2705ca6136a": {
+        "id": "69eeef47-a5c5-45dc-ba38-b2705ca6136a",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "c8b6e162-9032-4764-8eb7-18749b978812": {
+        "id": "c8b6e162-9032-4764-8eb7-18749b978812",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "af76b7e7-3a4a-424f-b18f-118cd32854bb"
+    ],
+    "currentFileId": "af76b7e7-3a4a-424f-b18f-118cd32854bb",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.5",
+    "projectName": "cli-test",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1597039698828
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "cli-test",
+      "url": "https://github.com/zgma-test/cli-test"
+    }
+  }
+}
